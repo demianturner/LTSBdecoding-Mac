@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD087D4D1F0FED27007AFA74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD087D4C1F0FED27007AFA74 /* AppDelegate.m */; };
+		AD087D501F0FED27007AFA74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD087D4F1F0FED27007AFA74 /* main.m */; };
+		AD087D531F0FED27007AFA74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD087D521F0FED27007AFA74 /* ViewController.m */; };
+		AD087D551F0FED27007AFA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD087D541F0FED27007AFA74 /* Assets.xcassets */; };
+		AD087D581F0FED27007AFA74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD087D561F0FED27007AFA74 /* Main.storyboard */; };
+		AD087D631F0FED27007AFA74 /* LTSBdecodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD087D621F0FED27007AFA74 /* LTSBdecodingTests.m */; };
+		AD087D6F1F0FEDAD007AFA74 /* LTSTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = AD087D6E1F0FEDAD007AFA74 /* LTSTorrent.m */; };
+		AD087D761F0FF020007AFA74 /* LTSTorrentFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AD087D751F0FF020007AFA74 /* LTSTorrentFile.m */; };
+		AD4556511F10218600DE522B /* LTSEncodingData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4556501F10218600DE522B /* LTSEncodingData.m */; };
+		AD994AA01F10804200464773 /* LTSBencoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AD994A9F1F10804200464773 /* LTSBencoder.m */; };
+		AD994AA31F1087FB00464773 /* Pokemon.Sun.and.Moon.torrent in Resources */ = {isa = PBXBuildFile; fileRef = AD994AA11F1087FB00464773 /* Pokemon.Sun.and.Moon.torrent */; };
+		AD994AA81F108DED00464773 /* Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent in Resources */ = {isa = PBXBuildFile; fileRef = AD994AA71F108DED00464773 /* Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent */; };
+		AD994AAA1F10970D00464773 /* Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent in Resources */ = {isa = PBXBuildFile; fileRef = AD994AA91F10970D00464773 /* Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent */; };
+		AD9EF5121F1010A7009B4AB1 /* LTSBdecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9EF50F1F1010A7009B4AB1 /* LTSBdecoder.m */; };
+		AD9EF5131F1010A7009B4AB1 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9EF5111F1010A7009B4AB1 /* OrderedDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD087D5F1F0FED27007AFA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD087D401F0FED27007AFA74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD087D471F0FED27007AFA74;
+			remoteInfo = LTSBdecoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD087D481F0FED27007AFA74 /* LTSBdecoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTSBdecoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD087D4B1F0FED27007AFA74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD087D4C1F0FED27007AFA74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD087D4F1F0FED27007AFA74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD087D511F0FED27007AFA74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD087D521F0FED27007AFA74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD087D541F0FED27007AFA74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD087D571F0FED27007AFA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD087D591F0FED27007AFA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD087D5E1F0FED27007AFA74 /* LTSBdecodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTSBdecodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD087D621F0FED27007AFA74 /* LTSBdecodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LTSBdecodingTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		AD087D641F0FED27007AFA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD087D6D1F0FEDAD007AFA74 /* LTSTorrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSTorrent.h; sourceTree = "<group>"; };
+		AD087D6E1F0FEDAD007AFA74 /* LTSTorrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSTorrent.m; sourceTree = "<group>"; };
+		AD087D741F0FF020007AFA74 /* LTSTorrentFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSTorrentFile.h; sourceTree = "<group>"; };
+		AD087D751F0FF020007AFA74 /* LTSTorrentFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSTorrentFile.m; sourceTree = "<group>"; };
+		AD45564F1F10218600DE522B /* LTSEncodingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSEncodingData.h; sourceTree = "<group>"; };
+		AD4556501F10218600DE522B /* LTSEncodingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSEncodingData.m; sourceTree = "<group>"; };
+		AD994A9E1F10804200464773 /* LTSBencoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSBencoder.h; sourceTree = "<group>"; };
+		AD994A9F1F10804200464773 /* LTSBencoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSBencoder.m; sourceTree = "<group>"; };
+		AD994AA11F1087FB00464773 /* Pokemon.Sun.and.Moon.torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pokemon.Sun.and.Moon.torrent; path = "sample torrent files/Pokemon.Sun.and.Moon.torrent"; sourceTree = "<group>"; };
+		AD994AA71F108DED00464773 /* Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent"; path = "sample torrent files/Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent"; sourceTree = "<group>"; };
+		AD994AA91F10970D00464773 /* Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent"; path = "sample torrent files/Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent"; sourceTree = "<group>"; };
+		AD9EF50E1F1010A7009B4AB1 /* LTSBdecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LTSBdecoder.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AD9EF50F1F1010A7009B4AB1 /* LTSBdecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LTSBdecoder.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		AD9EF5101F1010A7009B4AB1 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		AD9EF5111F1010A7009B4AB1 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD087D451F0FED27007AFA74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD087D5B1F0FED27007AFA74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD087D3F1F0FED27007AFA74 = {
+			isa = PBXGroup;
+			children = (
+				AD087D4A1F0FED27007AFA74 /* LTSBdecoding */,
+				AD087D611F0FED27007AFA74 /* LTSBdecodingTests */,
+				AD087D491F0FED27007AFA74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD087D491F0FED27007AFA74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD087D481F0FED27007AFA74 /* LTSBdecoding.app */,
+				AD087D5E1F0FED27007AFA74 /* LTSBdecodingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD087D4A1F0FED27007AFA74 /* LTSBdecoding */ = {
+			isa = PBXGroup;
+			children = (
+				AD087D561F0FED27007AFA74 /* Main.storyboard */,
+				AD087D4B1F0FED27007AFA74 /* AppDelegate.h */,
+				AD087D4C1F0FED27007AFA74 /* AppDelegate.m */,
+				AD087D511F0FED27007AFA74 /* ViewController.h */,
+				AD087D521F0FED27007AFA74 /* ViewController.m */,
+				AD9EF5141F1010B6009B4AB1 /* 3rdParty */,
+				AD9EF5181F101EA2009B4AB1 /* Helpers */,
+				AD087D701F0FEDB6007AFA74 /* Model */,
+				AD087D4E1F0FED27007AFA74 /* Supporting Files */,
+			);
+			path = LTSBdecoding;
+			sourceTree = "<group>";
+		};
+		AD087D4E1F0FED27007AFA74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD994AA91F10970D00464773 /* Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent */,
+				AD994AA71F108DED00464773 /* Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent */,
+				AD994AA11F1087FB00464773 /* Pokemon.Sun.and.Moon.torrent */,
+				AD087D541F0FED27007AFA74 /* Assets.xcassets */,
+				AD087D591F0FED27007AFA74 /* Info.plist */,
+				AD087D4F1F0FED27007AFA74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD087D611F0FED27007AFA74 /* LTSBdecodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD087D621F0FED27007AFA74 /* LTSBdecodingTests.m */,
+				AD087D641F0FED27007AFA74 /* Info.plist */,
+			);
+			path = LTSBdecodingTests;
+			sourceTree = "<group>";
+		};
+		AD087D701F0FEDB6007AFA74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD45564F1F10218600DE522B /* LTSEncodingData.h */,
+				AD4556501F10218600DE522B /* LTSEncodingData.m */,
+				AD087D6D1F0FEDAD007AFA74 /* LTSTorrent.h */,
+				AD087D6E1F0FEDAD007AFA74 /* LTSTorrent.m */,
+				AD087D741F0FF020007AFA74 /* LTSTorrentFile.h */,
+				AD087D751F0FF020007AFA74 /* LTSTorrentFile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AD9EF5141F1010B6009B4AB1 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EF5101F1010A7009B4AB1 /* OrderedDictionary.h */,
+				AD9EF5111F1010A7009B4AB1 /* OrderedDictionary.m */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		AD9EF5181F101EA2009B4AB1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EF50E1F1010A7009B4AB1 /* LTSBdecoder.h */,
+				AD9EF50F1F1010A7009B4AB1 /* LTSBdecoder.m */,
+				AD994A9E1F10804200464773 /* LTSBencoder.h */,
+				AD994A9F1F10804200464773 /* LTSBencoder.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD087D471F0FED27007AFA74 /* LTSBdecoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD087D671F0FED27007AFA74 /* Build configuration list for PBXNativeTarget "LTSBdecoding" */;
+			buildPhases = (
+				AD087D441F0FED27007AFA74 /* Sources */,
+				AD087D451F0FED27007AFA74 /* Frameworks */,
+				AD087D461F0FED27007AFA74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTSBdecoding;
+			productName = LTSBdecoding;
+			productReference = AD087D481F0FED27007AFA74 /* LTSBdecoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD087D5D1F0FED27007AFA74 /* LTSBdecodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD087D6A1F0FED27007AFA74 /* Build configuration list for PBXNativeTarget "LTSBdecodingTests" */;
+			buildPhases = (
+				AD087D5A1F0FED27007AFA74 /* Sources */,
+				AD087D5B1F0FED27007AFA74 /* Frameworks */,
+				AD087D5C1F0FED27007AFA74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD087D601F0FED27007AFA74 /* PBXTargetDependency */,
+			);
+			name = LTSBdecodingTests;
+			productName = LTSBdecodingTests;
+			productReference = AD087D5E1F0FED27007AFA74 /* LTSBdecodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD087D401F0FED27007AFA74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Demian Turner";
+				TargetAttributes = {
+					AD087D471F0FED27007AFA74 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8A3XPM2KYU;
+						ProvisioningStyle = Automatic;
+					};
+					AD087D5D1F0FED27007AFA74 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8A3XPM2KYU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD087D471F0FED27007AFA74;
+					};
+				};
+			};
+			buildConfigurationList = AD087D431F0FED27007AFA74 /* Build configuration list for PBXProject "LTSBdecoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD087D3F1F0FED27007AFA74;
+			productRefGroup = AD087D491F0FED27007AFA74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD087D471F0FED27007AFA74 /* LTSBdecoding */,
+				AD087D5D1F0FED27007AFA74 /* LTSBdecodingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD087D461F0FED27007AFA74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD994AA31F1087FB00464773 /* Pokemon.Sun.and.Moon.torrent in Resources */,
+				AD994AAA1F10970D00464773 /* Noise Ninja for Photoshop v2 3 2 MacOSX Incl Keymaker-CORE-[rarbg.to].torrent in Resources */,
+				AD994AA81F108DED00464773 /* Microsoft Office for Mac 2016 v15.13.3 Multi [TechTools]-[rarbg.to].torrent in Resources */,
+				AD087D551F0FED27007AFA74 /* Assets.xcassets in Resources */,
+				AD087D581F0FED27007AFA74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD087D5C1F0FED27007AFA74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD087D441F0FED27007AFA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4556511F10218600DE522B /* LTSEncodingData.m in Sources */,
+				AD9EF5131F1010A7009B4AB1 /* OrderedDictionary.m in Sources */,
+				AD087D6F1F0FEDAD007AFA74 /* LTSTorrent.m in Sources */,
+				AD087D531F0FED27007AFA74 /* ViewController.m in Sources */,
+				AD087D501F0FED27007AFA74 /* main.m in Sources */,
+				AD9EF5121F1010A7009B4AB1 /* LTSBdecoder.m in Sources */,
+				AD087D761F0FF020007AFA74 /* LTSTorrentFile.m in Sources */,
+				AD087D4D1F0FED27007AFA74 /* AppDelegate.m in Sources */,
+				AD994AA01F10804200464773 /* LTSBencoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD087D5A1F0FED27007AFA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD087D631F0FED27007AFA74 /* LTSBdecodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD087D601F0FED27007AFA74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD087D471F0FED27007AFA74 /* LTSBdecoding */;
+			targetProxy = AD087D5F1F0FED27007AFA74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD087D561F0FED27007AFA74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD087D571F0FED27007AFA74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD087D651F0FED27007AFA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD087D661F0FED27007AFA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD087D681F0FED27007AFA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8A3XPM2KYU;
+				INFOPLIST_FILE = LTSBdecoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seagullsystems.LTSBdecoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD087D691F0FED27007AFA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8A3XPM2KYU;
+				INFOPLIST_FILE = LTSBdecoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seagullsystems.LTSBdecoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD087D6B1F0FED27007AFA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8A3XPM2KYU;
+				INFOPLIST_FILE = LTSBdecodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seagullsystems.LTSBdecodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTSBdecoding.app/Contents/MacOS/LTSBdecoding";
+			};
+			name = Debug;
+		};
+		AD087D6C1F0FED27007AFA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8A3XPM2KYU;
+				INFOPLIST_FILE = LTSBdecodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seagullsystems.LTSBdecodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTSBdecoding.app/Contents/MacOS/LTSBdecoding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD087D431F0FED27007AFA74 /* Build configuration list for PBXProject "LTSBdecoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD087D651F0FED27007AFA74 /* Debug */,
+				AD087D661F0FED27007AFA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD087D671F0FED27007AFA74 /* Build configuration list for PBXNativeTarget "LTSBdecoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD087D681F0FED27007AFA74 /* Debug */,
+				AD087D691F0FED27007AFA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD087D6A1F0FED27007AFA74 /* Build configuration list for PBXNativeTarget "LTSBdecodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD087D6B1F0FED27007AFA74 /* Debug */,
+				AD087D6C1F0FED27007AFA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD087D401F0FED27007AFA74 /* Project object */;
+}
